@@ -1,0 +1,30 @@
+.projects-container {
+  text-align: center;
+  padding: 37px;
+}
+
+.projects-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 37px;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 15px;
+  width: 300px;
+  box-shadow: 2px 2px 10px rgba(72, 32, 1, 0.549);
+}
+
+.project-card h3 {
+  color: #333;
+}
+
+.project-card a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}

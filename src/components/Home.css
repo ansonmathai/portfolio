@@ -1,0 +1,15 @@
+.home-container {
+  text-align: center;
+  padding: 50px;
+}
+h1 {
+  font-size: 2.5rem;
+  color: #124;
+}
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
