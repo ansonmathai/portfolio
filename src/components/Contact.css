@@ -6,7 +6,7 @@
     font-family: Geneva;
   }
   ul {
-    display: flex;
+    display: inline;
     gap: 15px;
     justify-content: center;
     padding: 0%;
