@@ -5,6 +5,12 @@ const Contact = () => {
         <div className="contact-container">
             <h1>Contact me</h1>
             <p>Have a project in mind or just want to connect? Reach out to me below!</p>
+            <form className="contact-form">
+                <input placeholder="Name" type="text" required />
+                <input placeholder="Email" type="email" required />
+                <textarea placeholder="Message" rows="4" required />
+                <button type="submit">Send</button>
+            </form>
             <ul type="none">
                 <li>
                     <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=1.portfolio.ansonmathai@gmail.com" target="_blank" rel="noopener noreferrer">
